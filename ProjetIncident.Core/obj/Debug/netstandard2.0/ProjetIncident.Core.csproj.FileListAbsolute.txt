@@ -20,3 +20,4 @@
 /Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Debug/netstandard2.0/ProjetIncident.Core.AssemblyInfo.cs
 /Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Debug/netstandard2.0/ProjetIncident.Core.dll
 /Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Debug/netstandard2.0/ProjetIncident.Core.pdb
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Debug/netstandard2.0/ProjetIncident.Core.csprojResolveAssemblyReference.cache

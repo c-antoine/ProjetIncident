@@ -12,21 +12,36 @@
     <PackageReference Include="Xamarin.Forms.Maps" Version="2.5.0.122203" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="ProjetIncidentHome.xaml" />
-    <EmbeddedResource Include="ProjetIncidentDetails.xaml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
-      <DependentUpon>*.xaml</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="Views\App.xaml" />
+    <EmbeddedResource Include="Views\ProjetIncidentDetails.xaml" />
+    <EmbeddedResource Include="Views\ProjetIncidentHome.xaml" />
+    <EmbeddedResource Include="Views\MainMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
     <Folder Include="DataAccess\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="ProjetIncidentPage %28copie%29.xaml" />
+    <None Remove="Views\App.xaml" />
+    <None Remove="Views\ProjetIncidentDetails.xaml" />
+    <None Remove="Views\ProjetIncidentHome.xaml" />
+    <None Remove="Views\MainMenuPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\ProjetIncidentDetails.xaml.cs">
+      <DependentUpon>ProjetIncidentDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\ProjetIncidentHome.xaml.cs">
+      <DependentUpon>ProjetIncidentHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\MainMenuPage.xaml.cs">
+      <DependentUpon>..\..\..\GraphismExamples\GraphismExamples\GraphismExamples\Views\Views\MainMenuPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -5,6 +5,11 @@ namespace ProjetIncident.Core.ViewModel
 {
     public class ProjetIncidentViewModel : BaseViewModel
     {
+        public string HomeLogo
+        {
+            get { return (string)GetContent(); }
+            set { SetProperty(value); }
+        }
         public ProjetIncidentViewModel()
         {
             MaListe = new ObservableCollection<string>();

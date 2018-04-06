@@ -1,0 +1,13 @@
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/bin/Release/netstandard2.0/ProjetIncident.Core.deps.json
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/bin/Release/netstandard2.0/ProjetIncident.Core.dll
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/bin/Release/netstandard2.0/ProjetIncident.Core.pdb
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.csprojResolveAssemblyReference.cache
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.csproj.CoreCompileInputs.cache
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.AssemblyInfoInputs.cache
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.AssemblyInfo.cs
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.dll
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.pdb
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.Views.App.xaml.g.cs
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.Views.ProjetIncidentDetails.xaml.g.cs
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.Views.ProjetIncidentHome.xaml.g.cs
+/Users/iem/Desktop/LP/Net/FirstProjetIncident/ProjetIncident.Core/obj/Release/netstandard2.0/ProjetIncident.Core.Views.MainMenuPage.xaml.g.cs

@@ -7,6 +7,29 @@ namespace ProjetIncident.Core.ViewModel
 {
     public abstract class BaseViewModel : INotifyPropertyChanged
     {
+        private Dictionary<string, object> _propertyValues;
+
+        public virtual object GetContent([CallerMemberName] string propertyName = null, object defaultValue = null)
+        {
+            if (_propertyValues.ContainsKey(propertyName)) return _propertyValues[propertyName];
+            return defaultValue;
+        }
+        public virtual bool SetContent<T>(T newValue, [CallerMemberName] string propertyName = null)
+        {
+            object current = GetContent(propertyName);
+
+            if ((current == null && newValue == null) ||
+                (current != null && EqualityComparer<T>.Default.Equals((T)current, newValue)))
+            {
+                return false;
+            }
+
+            _propertyValues[propertyName] = newValue;
+            OnPropertyChanged(propertyName);
+
+            return true;
+        }
+
         public BaseViewModel()
         {
             propertyValues = new Dictionary<string, object>();
